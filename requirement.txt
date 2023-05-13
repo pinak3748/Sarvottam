@@ -1,0 +1,22 @@
+reference : 
+
+for screens :
+https://preview.themeforest.net/item/alori-flooring-and-tiling-wordpress-theme/full_screen_preview/36390682
+
+for images :
+http://preview.themeforest.net/item/tile-max-flooring-wp-theme/full_screen_preview/20890988
+
+
+Name of sections 
+
+1) Home 
+2) Our brands
+3) Our product
+4) Feature product
+5) Our services
+6) Gallery
+7) Contact Form
+8) Fotter
+
+
+
