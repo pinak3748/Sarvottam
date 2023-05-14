@@ -48,6 +48,7 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
         transform: scale(1) translateX(-35.5rem);
@@ -95,3 +96,122 @@
     border-radius: 0.5rem;
     scale: 0.8;
 }
+
+.section {
+    overflow: hidden;
+    /* Ensure images do not go beyond the section boundaries */
+}
+
+.grid {
+    animation: animate-grid 10s linear infinite;
+ 
+}
+
+.row1 {
+    animation-delay: 0s;
+}
+
+.row2 {
+    animation-delay: 6s;
+}
+
+.row3 {
+    animation-delay: 3s;
+}
+
+.row4 {
+    animation-delay: 6s;
+}
+
+.gallery_image {
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+
+}
+
+@keyframes animate-grid {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-188.5%);
+    }
+}
+
+
+.gridAnimated {
+    position: relative;
+    /* Enable relative positioning for the images */
+}
+
+.gridAnimated>:nth-child(1) {
+    position: absolute;
+    /* Position the images absolutely within the grid */
+    top: 0;
+    /* Start at the top of the grid */
+    left: 0;
+    /* Start at the left of the grid */
+    width: 100%;
+    /* Occupy the entire grid width */
+    height: 100%;
+    /* Occupy the entire grid height */
+    transition: transform 10s linear;
+    /* Apply smooth transition for image movement */
+}
+
+.gridAnimated>:nth-child(2) {
+    position: absolute;
+    /* Position the images absolutely within the grid */
+    top: 0;
+    /* Start at the top of the grid */
+    left: 340px;
+    /* Start at the left of the grid */
+    width: 100%;
+    /* Occupy the entire grid width */
+    height: 100%;
+    /* Occupy the entire grid height */
+    transition: transform 10s linear;
+    /* Apply smooth transition for image movement */
+}
+
+.gridAnimated>:nth-child(3) {
+    position: absolute;
+    /* Position the images absolutely within the grid */
+    top: 0;
+    /* Start at the top of the grid */
+    left: 680px;
+    /* Start at the left of the grid */
+    width: 100%;
+    /* Occupy the entire grid width */
+    height: 100%;
+    /* Occupy the entire grid height */
+    transition: transform 10s linear;
+    /* Apply smooth transition for image movement */
+}
+
+.gridAnimated>:nth-child(4) {
+    position: absolute;
+    /* Position the images absolutely within the grid */
+    top: 0;
+    /* Start at the top of the grid */
+    left: 1020px;
+    /* Start at the left of the grid */
+    width: 100%;
+    /* Occupy the entire grid width */
+    height: 100%;
+    /* Occupy the entire grid height */
+    transition: transform 10s linear;
+    /* Apply smooth transition for image movement */
+}
+
+
+.gridAnimated:hover>div {
+    transition: none;
+    /* Disable transition on hover to prevent interruption */
+}
+
+/* .gridAnimated:hover>div:not(:last-child) {
+    transform: translateY(-100%);
+} */

@@ -49,13 +49,12 @@ export default function Home() {
     }, [])
 
 
-
     return (
         <div className='w-full flex bg-offwhite overflow-x-hidden'>
-            <div className='w-1/2 py-28 pl-44'>
+            <div className='w-1/2 py-28 pl-32'>
                 <h2 className='text-5xl text-Montserrat text-secondary font-[800] leading-normal'>Unlock the Natural</h2>
                 <h2 className='text-5xl text-Montserrat text-secondary font-[800] leading-normal'>Beauty of <span className='text-[#f0504f]'>Wood</span></h2>
-                <p className='mt-3 leading-5 text-[15px] text-Inter text-gray-600 max-w-lg'>
+                <p className='mt-3 leading-5 text-[15px] text-Inter text-gray-600 max-w-lg tracking-wide'>
                     Unleash the beauty of wood in all its forms. Our wood veneer sheets highlight each species' organic qualities,
                     from the rustic charm of oak to the contemporary elegance of walnut.
                     Explore endless possibilities and bring nature's marvels into your projects.

@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/logo.png'
 export default function Navbar() {
     return (
-        <div className='backdrop-blur-sm bg-white/30 fixed w-full flex justify-around item-center gap-x-4 py-4'>
+        <div className='backdrop-blur-lg bg-white/30 sticky top-0 z-50 w-full flex justify-around item-center gap-x-4 py-4 border-b-[0.5px] border-gray-200'>
             <div className='flex item-center gap-x-2'>
                 <img src={logo} className='h-8' />
                 <h1 className='text-Montserrat text-2xl font-semibold text-secondary'>Sarvottam</h1>
