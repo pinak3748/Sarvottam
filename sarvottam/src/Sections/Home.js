@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from 'react'
 import Kitchen01 from '../assets/kitchen01.jpg'
 import Kitchen02 from '../assets/kitchen02.jpg'
 import florring01 from '../assets/florring01.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import '../App.css'
 export default function Home() {
     const [currentImage, setCurrentImage] = useState(0)
@@ -43,6 +45,7 @@ export default function Home() {
 
 
     useEffect(() => {
+        AOS.init();
         setTimeout(() => {
             setCurrentImage(currentImage === 2 ? 0 : currentImage + 1);
         }, 5000);
@@ -50,18 +53,34 @@ export default function Home() {
 
 
     return (
-        <div className='w-full flex bg-offwhite overflow-x-hidden'>
+        <div className='w-full flex bg-offwhite overflow-x-hidden border-b-[0.5px] border-gray-200'>
             <div className='w-1/2 py-28 pl-32'>
-                <h2 className='text-5xl text-Montserrat text-secondary font-[800] leading-normal'>Unlock the Natural</h2>
-                <h2 className='text-5xl text-Montserrat text-secondary font-[800] leading-normal'>Beauty of <span className='text-[#f0504f]'>Wood</span></h2>
-                <p className='mt-3 leading-5 text-[15px] text-Inter text-gray-600 max-w-lg tracking-wide'>
+                <h2
+                    data-aos="fade-up"
+                    data-aos-delay="10"
+                    data-aos-duration="400"
+                    data-aos-easing="ease-in-out"
+                    className='text-5xl text-Montserrat text-secondary font-[800] leading-normal'>Unlock the Natural</h2>
+                <h2
+                    data-aos="fade-up"
+                    data-aos-delay="10"
+                    data-aos-duration="400"
+                    data-aos-easing="ease-in-out"
+                    className='text-5xl text-Montserrat text-secondary font-[800] leading-normal'>Beauty of <span className='text-[#f0504f]'>Wood</span></h2>
+                <p
+                    data-aos="fade-up"
+                    data-aos-delay="60"
+                    data-aos-duration="400"
+                    data-aos-easing="ease-in-out"
+                    className='mt-3 leading-5 text-[15px] text-Inter text-gray-600 max-w-lg tracking-wide'>
                     Unleash the beauty of wood in all its forms. Our wood veneer sheets highlight each species' organic qualities,
                     from the rustic charm of oak to the contemporary elegance of walnut.
                     Explore endless possibilities and bring nature's marvels into your projects.
                     With captivating textures and natural variations, our wood veneers add an authentic touch to any space.
                 </p>
 
-                <button className='bg-[#f0504f] px-4 py-2.5 mt-8 text-sm text-Inter text-offwhite font-[500] rounded-lg'>
+                <button
+                    className='bg-[#f0504f] px-4 py-2.5 mt-8 text-sm text-Inter text-offwhite font-[500] rounded-lg'>
                     Get Started
                 </button>
 
@@ -86,11 +105,11 @@ export default function Home() {
 
             <div className='w-1/2 py-8 overflow-x-hidden'>
                 <div className='w-full flex gap-x-14 pl-8'>
-                    <img src={Kitchen01} id='image1' className='image shadow-custom rounded-2xl ' />
+                    <img src={Kitchen01} loading="lazy" id='image1' className='image shadow-custom rounded-2xl ' />
                     {/* <img src={Kitchen01} id='image1copy' className='image shadow-custom rounded-2xl  ' /> */}
 
-                    <img src={Kitchen02} id='image2' className='smallImage overflow-x-hidden rounded-2xl  ' />
-                    <img src={Kitchen02} id='image2copy' className='smallImage overflow-x-hidden rounded-2xl  ' />
+                    <img src={Kitchen02} loading="lazy" id='image2' className='smallImage overflow-x-hidden rounded-2xl  ' />
+                    <img src={Kitchen02} loading="lazy" id='image2copy' className='smallImage overflow-x-hidden rounded-2xl  ' />
                 </div>
                 <div className='flex gap-x-8 px-8 mt-6'>
                     <p onClick={() => { setCurrentImage(0) }} className={` ${currentImage === 0 ? `text-secondary border-b-[2px] text-xl` : `text-gray-700 hover:text-secondary text-md`} pb-2 transition-all duration-200 ease-in-out text-Poppins font-bold text-center leading-5 hover:border-b-[2px] border-primary cursor-default`}>1</p>

@@ -1,9 +1,21 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export default function ContactUs() {
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
+
     return (
-        <section class="text-gray-600 body-font relative mt-24 px-24">
-            <h2 className='text-Poppins text-4xl font-[800] text-secondary text-center'>Contact Us</h2>
+        <section class="text-gray-600 body-font relative mt-24 px-24 border-b-[0.5px] border-gray-100">
+            <h2
+                data-aos="fade-up"
+                data-aos-delay="0"
+                data-aos-duration="150"
+                data-aos-easing="ease-in"
+                className='text-Poppins text-4xl font-[800] text-secondary text-center'>Contact Us</h2>
             <div class="container px-5 py-16 mx-auto flex sm:flex-nowrap flex-wrap">
                 <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                     <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://my.atlist.com/map/b6c122ff-ee91-4327-a79b-92aee724c561?share=true" ></iframe>

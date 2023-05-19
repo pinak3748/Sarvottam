@@ -9,11 +9,11 @@ export default function Navbar() {
             </div>
             <ul className='flex item-center gap-x-7 mt-1'>
                 <li className='text-secondary font-semibold text-[14px] text-Inter h-fit py-1 border-b-2 border-primary  cursor-pointer'>Home</li>
-                <li className='text-[#adadad] hover:text-secondary text-[14px] h-fit transition-all duration-100 ease-in-out text-Inter py-1 hover:border-b-2 border-primary cursor-pointer'>Our Brand</li>
-                <li className='text-[#adadad] hover:text-secondary text-[14px] h-fit transition-all duration-100 ease-in-out text-Inter py-1 hover:border-b-2 border-primary cursor-pointer'>Products</li>
-                <li className='text-[#adadad] hover:text-secondary text-[14px] h-fit transition-all duration-100 ease-in-out text-Inter py-1 hover:border-b-2 border-primary cursor-pointer'>Our Services</li>
-                <li className='text-[#adadad] hover:text-secondary text-[14px] h-fit transition-all duration-100 ease-in-out text-Inter py-1 hover:border-b-2 border-primary cursor-pointer'>Gallery</li>
-                <li className='text-[#adadad] hover:text-secondary text-[14px] h-fit transition-all duration-100 ease-in-out text-Inter py-1 hover:border-b-2 border-primary cursor-pointer'>Contact Us</li>
+                <li className='text-[#7c7c7c] hover:text-secondary text-[14px] h-fit transition-all duration-100 ease-in-out text-Inter py-1 hover:border-b-2 border-primary cursor-pointer'>Our Brand</li>
+                <li className='text-[#7c7c7c] hover:text-secondary text-[14px] h-fit transition-all duration-100 ease-in-out text-Inter py-1 hover:border-b-2 border-primary cursor-pointer'>Products</li>
+                <li className='text-[#7c7c7c] hover:text-secondary text-[14px] h-fit transition-all duration-100 ease-in-out text-Inter py-1 hover:border-b-2 border-primary cursor-pointer'>Our Services</li>
+                <li className='text-[#7c7c7c] hover:text-secondary text-[14px] h-fit transition-all duration-100 ease-in-out text-Inter py-1 hover:border-b-2 border-primary cursor-pointer'>Gallery</li>
+                <li className='text-[#7c7c7c] hover:text-secondary text-[14px] h-fit transition-all duration-100 ease-in-out text-Inter py-1 hover:border-b-2 border-primary cursor-pointer'>Contact Us</li>
             </ul>
             <div>
                 <button className='bg-[#f0504f] px-4 py-2.5 text-sm text-Inter text-offwhite font-[500] rounded-lg'>

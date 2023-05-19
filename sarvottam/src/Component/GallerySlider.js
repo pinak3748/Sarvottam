@@ -10,85 +10,85 @@ export default function GallerySlider() {
         <div class="flex gridAnimated backdrop-blur-md bg-blur shadow-inner gap-4 py-16 min-h-[600px]">
             <div class="grid gap-4  row1">
                 <div>
-                    <img class=" gallery_image rounded-lg" src={Kitchen02} alt="" />
+                    <img class=" gallery_image rounded-lg" loading="lazy" src={Kitchen02} alt="" />
                 </div>
                 <div>
-                    <img class="  gallery_image rounded-lg" src={bg1} alt="" />
+                    <img class="  gallery_image rounded-lg" loading="lazy" src={bg1} alt="" />
                 </div>
                 <div>
-                    <img class="gallery_image rounded-lg" src={slider1} alt="" />
+                    <img class="gallery_image rounded-lg" loading="lazy" src={slider1} alt="" />
                 </div>
                 <div>
-                    <img class="  gallery_image rounded-lg" src={bg2} alt="" />
+                    <img class="  gallery_image rounded-lg" loading="lazy" src={bg2} alt="" />
                 </div>
                 <div>
-                    <img class=" gallery_image rounded-lg" src={Kitchen02} alt="" />
+                    <img class=" gallery_image rounded-lg" loading="lazy" src={Kitchen02} alt="" />
                 </div>
                 <div>
-                    <img class="  gallery_image rounded-lg" src={bg1} alt="" />
+                    <img class="  gallery_image rounded-lg" loading="lazy" src={bg1} alt="" />
                 </div>
 
             </div>
             <div class="grid gap-4  row2">
                 <div>
-                    <img class=" gallery_image rounded-lg" src={Kitchen02} alt="" />
+                    <img class=" gallery_image rounded-lg" loading="lazy" src={Kitchen02} alt="" />
                 </div>
                 <div>
-                    <img class="  gallery_image rounded-lg" src={bg1} alt="" />
+                    <img class="  gallery_image rounded-lg" loading="lazy" src={bg1} alt="" />
                 </div>
                 <div>
-                    <img class="gallery_image rounded-lg" src={slider1} alt="" />
+                    <img class="gallery_image rounded-lg" loading="lazy" src={slider1} alt="" />
                 </div>
                 <div>
-                    <img class="  gallery_image rounded-lg" src={bg2} alt="" />
+                    <img class="  gallery_image rounded-lg" loading="lazy" src={bg2} alt="" />
                 </div>
                 <div>
-                    <img class=" gallery_image rounded-lg" src={Kitchen02} alt="" />
+                    <img class=" gallery_image rounded-lg" loading="lazy" src={Kitchen02} alt="" />
                 </div>
                 <div>
-                    <img class="  gallery_image rounded-lg" src={bg1} alt="" />
+                    <img class="  gallery_image rounded-lg" loading="lazy" src={bg1} alt="" />
                 </div>
 
             </div>
             <div class="grid gap-4  row3">
                 <div>
-                    <img class=" gallery_image rounded-lg" src={Kitchen02} alt="" />
+                    <img class=" gallery_image rounded-lg" loading="lazy" src={Kitchen02} alt="" />
                 </div>
                 <div>
-                    <img class="  gallery_image rounded-lg" src={bg1} alt="" />
+                    <img class="  gallery_image rounded-lg" loading="lazy" src={bg1} alt="" />
                 </div>
                 <div>
-                    <img class="gallery_image rounded-lg" src={slider1} alt="" />
+                    <img class="gallery_image rounded-lg" loading="lazy" src={slider1} alt="" />
                 </div>
                 <div>
-                    <img class="  gallery_image rounded-lg" src={bg2} alt="" />
+                    <img class="  gallery_image rounded-lg" loading="lazy" src={bg2} alt="" />
                 </div>
                 <div>
-                    <img class=" gallery_image rounded-lg" src={Kitchen02} alt="" />
+                    <img class=" gallery_image rounded-lg" loading="lazy" src={Kitchen02} alt="" />
                 </div>
                 <div>
-                    <img class="  gallery_image rounded-lg" src={bg1} alt="" />
+                    <img class="  gallery_image rounded-lg" loading="lazy" src={bg1} alt="" />
                 </div>
 
             </div>
             <div class="grid gap-4  row4">
                 <div>
-                    <img class=" gallery_image rounded-lg" src={Kitchen02} alt="" />
+                    <img class=" gallery_image rounded-lg" loading="lazy" src={Kitchen02} alt="" />
                 </div>
                 <div>
-                    <img class="  gallery_image rounded-lg" src={bg1} alt="" />
+                    <img class="  gallery_image rounded-lg" loading="lazy" src={bg1} alt="" />
                 </div>
                 <div>
-                    <img class="gallery_image rounded-lg" src={slider1} alt="" />
+                    <img class="gallery_image rounded-lg" loading="lazy" src={slider1} alt="" />
                 </div>
                 <div>
-                    <img class="  gallery_image rounded-lg" src={bg2} alt="" />
+                    <img class="  gallery_image rounded-lg" loading="lazy" src={bg2} alt="" />
                 </div>
                 <div>
-                    <img class=" gallery_image rounded-lg" src={Kitchen02} alt="" />
+                    <img class=" gallery_image rounded-lg" loading="lazy" src={Kitchen02} alt="" />
                 </div>
                 <div>
-                    <img class="  gallery_image rounded-lg" src={bg1} alt="" />
+                    <img class="  gallery_image rounded-lg" loading="lazy" src={bg1} alt="" />
                 </div>
 
             </div>

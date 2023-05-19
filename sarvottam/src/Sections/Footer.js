@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/logo.png'
 export default function Footer() {
     return (
-        <footer class="text-gray-600 body-font px-24 py-5 ">
+        <footer class="text-gray-600 body-font px-24 py-5 border-t-[0.5px] border-gray-200">
             <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                 <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                     <img src={logo} className='h-8' />

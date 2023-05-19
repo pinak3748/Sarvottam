@@ -14,6 +14,11 @@ module.exports = {
       },
       boxShadow: {
         'custom': 'rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px',
+      },
+      fontFamily: {
+        Poppins: ['Poppins', 'sans-serif'],
+        Montserrat: ['Montserrat', 'sans-serif'],
+        Inter: ['Inter', 'sans-serif'],
       }
     },
   },
