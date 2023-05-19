@@ -21,13 +21,13 @@ const ScrollableComponent = () => {
           <h2
             data-aos="fade-up"
             data-aos-delay="0"
-            data-aos-duration="200"
+            data-aos-duration="50"
             data-aos-easing="ease-in"
             className='text-Poppins text-4xl font-[800] text-secondary text-center mb-3'>Our Products</h2>
           <p
             data-aos="fade-up"
-            data-aos-delay="100"
-            data-aos-duration="400"
+            data-aos-delay="0"
+            data-aos-duration="100"
             data-aos-easing="ease-in"
             class="lg:w-2/3 mx-auto leading-relaxed text-md">Step into luxury and elevate your space with our exquisite flooring collection. Immerse yourself in timeless elegance and unmatched quality for a floor that makes a lasting impression</p>
         </div>

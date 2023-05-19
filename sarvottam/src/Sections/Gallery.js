@@ -16,13 +16,13 @@ export default function Gallery() {
                 <h2
                     data-aos="fade-up"
                     data-aos-delay="0"
-                    data-aos-duration="150"
+                    data-aos-duration="50"
                     data-aos-easing="ease-in"
                     className='text-Poppins text-4xl font-[800] text-secondary text-center mb-3'>Gallery</h2>
                 <p
                     data-aos="fade-up"
-                    data-aos-delay="100"
-                    data-aos-duration="400"
+                    data-aos-delay="0"
+                    data-aos-duration="100"
                     data-aos-easing="ease-in"
                     class="lg:w-2/3 mx-auto leading-relaxed text-md">Step into our gallery and immerse yourself in a visual feast of exquisite flooring designs, where elegance meets functionality. Discover the perfect foundation for your space, crafted with precision and style.</p>
             </div>
